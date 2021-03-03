@@ -5,9 +5,9 @@ name: Java CI with Maven # Tên của acttion buil
 
 on: #xảy ra sự kiện để kích hoặc việc build
   push: 
-    branches: [ master ]  # Khi code được push bên branch master
+    branches: [ main ]  # Khi code được push bên branch master
   pull_request:
-    branches: [ master ]  # Khi có pull request ở branh master
+    branches: [ main ]  # Khi có pull request ở branh master
 
 jobs: # Những công việc sẽ được làm
   build:
